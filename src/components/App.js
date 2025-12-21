@@ -1,4 +1,3 @@
-import React from "react";
 import "./../styles/App.css";
 import Tooltip from "./Tooltip";
 const App = () => {
@@ -12,7 +11,7 @@ const App = () => {
       <br />
 
       <Tooltip text="This is another Tooltip">
-        <button>Hover Button</button>
+        <span>Hover over me to see another tooltip </span>
       </Tooltip>
     </div>
   );
