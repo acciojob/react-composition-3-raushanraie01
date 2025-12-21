@@ -8,7 +8,11 @@ const Tooltip = ({ text, children }) => {
       className="tooltip"
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
-      style={{ position: "relative", display: "inline-block" }}
+      style={{
+        position: "relative",
+        display: "inline-block",
+        height: "100px",
+      }}
     >
       {children}
 
@@ -20,13 +24,13 @@ const Tooltip = ({ text, children }) => {
             bottom: "125%",
             left: "50%",
             transform: "translateX(-50%)",
-            backgroundColor: "#333",
+            backgroundColor: "#923a3aff",
             color: "#fff",
             padding: "6px 10px",
             borderRadius: "4px",
             whiteSpace: "nowrap",
             fontSize: "12px",
-            zIndex: 1000,
+            // zIndex: 1000,
           }}
         >
           {text}
