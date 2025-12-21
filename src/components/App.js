@@ -1,10 +1,11 @@
 import "./../styles/App.css";
+import React from "react";
 import Tooltip from "./Tooltip";
 const App = () => {
   return (
     <div style={{ padding: "50px" }}>
       <Tooltip text="This is a tooltip">
-        <span style={{ cursor: "pointer" }}>Hover over me</span>
+        <h1 style={{ cursor: "pointer" }}>Hover over me</h1>
       </Tooltip>
 
       <br />

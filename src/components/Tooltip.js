@@ -11,7 +11,6 @@ const Tooltip = ({ text, children }) => {
       style={{
         position: "relative",
         display: "inline-block",
-        height: "100px",
       }}
     >
       {children}
@@ -21,16 +20,16 @@ const Tooltip = ({ text, children }) => {
           className="tooltiptext"
           style={{
             position: "absolute",
-            bottom: "125%",
+            bottom: "100%",
             left: "50%",
             transform: "translateX(-50%)",
-            backgroundColor: "#923a3aff",
+            backgroundColor: "#b25353ff",
             color: "#fff",
             padding: "6px 10px",
             borderRadius: "4px",
             whiteSpace: "nowrap",
-            fontSize: "12px",
-            // zIndex: 1000,
+            fontSize: "22px",
+            zIndex: 1000,
           }}
         >
           {text}
