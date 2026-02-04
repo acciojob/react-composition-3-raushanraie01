@@ -12,12 +12,10 @@ const App = () => {
       }}
     >
       <Tooltip text="This is a tooltip">
-        <span className="tooltip btn">Hover Over Me</span>
+        <h2 className="tooltip">Hover Over Me</h2>
       </Tooltip>
       <Tooltip text="This is another tooltip">
-        <span className="btn1 tooltip">
-          Hover over me to see another tooltip
-        </span>
+        <p className=" tooltip">Hover over me to see another tooltip</p>
       </Tooltip>
     </div>
   );
