@@ -10,7 +10,6 @@ function Tooltip({ children, text }) {
           height: "200px",
           cursor: "pointer",
         }}
-        className="tooltip"
         onMouseEnter={() => setEnter(true)}
         onMouseLeave={() => setEnter(false)}
       >
