@@ -1,1 +1,14 @@
 
+.btn{
+     height: 40px;
+     width:50px;
+     border:1px solid black;
+     margin:4px
+}
+
+.btn1{
+     height: 80px;
+     width: 50px;
+     border: 1px solid black;
+     margin: 4px
+}
