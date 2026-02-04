@@ -4,7 +4,7 @@ function Tooltip({ children, text }) {
   const [enter, setEnter] = useState(false);
   return (
     <div>
-      <span
+      <div
         style={{
           width: "100px",
           height: "200px",
@@ -14,11 +14,11 @@ function Tooltip({ children, text }) {
         onMouseLeave={() => setEnter(false)}
       >
         {children}
-      </span>
+      </div>
       {enter && (
-        <div className="tooltiptext" style={{ backgroundColor: "red" }}>
+        <h2 className="tooltiptext" style={{ backgroundColor: "red" }}>
           {text}
-        </div>
+        </h2>
       )}
     </div>
   );
